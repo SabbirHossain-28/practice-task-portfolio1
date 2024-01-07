@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+/* * {
+  margin: o;
+  padding: 0;
+} */
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  background-image: url("../images/banner/banner1.png");
+  background-size: cover;
+}
+.banner {
+  padding: 200px 230px;
+  /* text-align: right; */
+  /* width: 500px; */
+  display: flex;
+  justify-content: right;
+}
+.banner div {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.banner-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+}
+.banner-description {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  /* width: 500px; */
+}
+.primary-btn {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #f15b22;
+  padding: 20px 25px;
+  border: none;
+}
+.contact-btn {
+  text-align: right;
+}
+.introduction {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  padding: 140px 322px 0 206px;
+}
+.intro-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 280px;
+}
+.intro-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 400px;
+}
+.introduction > .introduction-items > ul {
+  list-style: none;
+  padding-left: 0;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.plan {
+  padding: 135px 230px;
+}
+.plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+.plan-section-items {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 55px;
+}
+.footer-banner {
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  /* background-size: cover; */
+  /* margin: 0 230px 130px; */
+}
+.footer-banner-section {
+  background-image: url("../images/gradient2.png");
+  width: 1140px;
+  height: 300px;
+}
+.footer-banner-section-content > .footer-banner-info {
+  width: 460px;
+}
+.footer-banner-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.footer-primary-btn {
+  color: #f15b22;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 25px;
+  border: none;
+}
+.footer-banner-section-content {
+  padding: 30px 65px;
+}
+.footer {
+  display: flex;
+  padding: 130px 170px;
+  gap: 300px;
+  background-color: #151414;
+  margin-top: 130px;
+}
+.contact-info-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.contact-info-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.subscribe-title{
+  color: #FFF; 
+font-size: 25px; 
+font-weight: 600; 
+}
+input{
+  color: #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+padding: 21px;
+border-radius: 8px;
+border: 1px solid #FFF;
+outline: none;
+background: none;
+margin-bottom: 16px;
+}
